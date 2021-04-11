@@ -1,0 +1,39 @@
+.header__wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-logo__link {
+   display: flex;
+   align-items: center;
+}
+
+.header-nav {
+   &__list {
+      display: flex;
+      flex-wrap: wrap;
+   }
+   &__item {
+      position: relative;
+      padding: 16px;
+      &::before {
+         content: "";
+         position: absolute;
+         width: 4px;
+         height: 4px;
+         background-color: $point;
+         top: 28px;
+         right: -2px;
+         border-radius: 50%;
+      }
+      &:last-child::before {
+         display: none;
+      }
+   }
+   &__link {
+      font-size: 15px;
+      line-height: 17px;
+      font-weight: 500;
+   }
+}
