@@ -38,9 +38,9 @@ img {
 }
 
 .container {
-   max-width: 1240px;
+   max-width: 1250px;
    margin: 0 auto;
-   padding: 0;
+   padding: 0 10px;
 }
 
 .background-main {
@@ -52,4 +52,28 @@ img {
    background-size: cover;
    background-position: 50% 40%;
    background-attachment: fixed;
+}
+
+.background-page {
+   height: 100vh;
+   overflow: auto;
+   background-color: $bg-color;
+   background-image: url(/images/bg-page.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 50% 40%;
+   background-attachment: fixed;
+}
+
+.button {
+   font-size: 21px;
+   line-height: 24px;
+   font-weight: bold;
+   color: $white;
+   text-transform: uppercase;
+   background-color: transparent;
+   border: 3px solid $brand-brighter;
+   border-radius: 3px;
+   padding: 22px 40px;
+   cursor: pointer;
 }
