@@ -44,6 +44,8 @@ img {
 }
 
 .background-main {
+   display: flex;
+   flex-direction: column;
    height: 100vh;
    overflow: auto;
    background-color: $bg-color;
@@ -69,11 +71,12 @@ img {
    font-size: 21px;
    line-height: 24px;
    font-weight: bold;
+   letter-spacing: 0.03em;
    color: $white;
    text-transform: uppercase;
    background-color: transparent;
    border: 3px solid $brand-brighter;
    border-radius: 3px;
-   padding: 22px 40px;
+   padding: 20px 40px;
    cursor: pointer;
 }
