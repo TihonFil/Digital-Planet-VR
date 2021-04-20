@@ -1,7 +1,17 @@
+.footer {
+   padding-bottom: 35px;
+}
+
 .footer__wrap {
    display: flex;
-   align-items: center;
-   padding-bottom: 35px;
+   flex-wrap: wrap;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.footer-social {
+   width: 14%;
+   margin: 0 24.5% 0 0;
 }
 
 .footer-social__link {
@@ -9,13 +19,19 @@
    opacity: 0.5;
 }
 
+.footer-scroll__wrap {
+   margin: 0;
+   width: 23%;
+   text-align: center;
+}
+
 .footer-scroll {
    position: relative;
-   margin: 0 auto;
    font-size: 11px;
    line-height: 14px;
    letter-spacing: 0.12em;
    text-transform: uppercase;
+   padding-bottom: 10px;
    opacity: 0.5;
    &::before {
       content: "";
@@ -26,7 +42,12 @@
       background-size: 17px 17px;
       width: 17px;
       height: 17px;
-      top: 17px;
-      left: 36px;
+      bottom: -10px;
+      left: 50%;
+      transform: translate(-50%);
    }
+}
+
+.footer-scroll__arrow {
+   margin: 0 auto;
 }
