@@ -83,6 +83,15 @@ img {
   cursor: pointer;
 }
 
+.title {
+  display: inline-block;
+  padding-right: 31px;
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 500;
+  border-bottom: 3px solid #0dd1a2;
+}
+
 .header__wrap {
   display: flex;
   justify-content: space-between;
@@ -270,4 +279,22 @@ img {
   height: 31px;
   top: 18px;
   left: 35px;
+}
+
+.product__text {
+  font-weight: 300;
+}
+
+.product-slider__title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.product-slider__item {
+  display: none;
+}
+
+.product-slider__item--active {
+  display: block;
 }

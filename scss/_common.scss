@@ -82,3 +82,12 @@ img {
    padding: 20px 40px;
    cursor: pointer;
 }
+
+.title {
+   display: inline-block;
+   padding-right: 31px;
+   font-size: 44px;
+   line-height: 1.4;
+   font-weight: 500;
+   border-bottom: 3px solid $brand-brighter;
+}
