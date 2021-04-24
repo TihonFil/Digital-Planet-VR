@@ -2,10 +2,6 @@
    flex-grow: 1;
 }
 
-.product__title {
-   margin: 50px 30px;
-}
-
 .product__wrap {
    display: flex;
    padding: 0 30px;
@@ -58,6 +54,12 @@
 
 .product-slider__item--active {
    display: block;
+}
+
+.product-slider__img {
+   height: 100%;
+   width: auto;
+   max-width: none;
 }
 
 .product-slider__button-wrap {
