@@ -12,11 +12,13 @@
 .footer-social {
    width: 14%;
    margin: 0 24.5% 0 0;
-}
-
-.footer-social__link {
-   padding: 10px;
-   opacity: 0.5;
+   &__link {
+      padding: 10px;
+      opacity: 0.5;
+   }
+   &__img {
+      vertical-align: middle;
+   }
 }
 
 .footer-scroll__wrap {

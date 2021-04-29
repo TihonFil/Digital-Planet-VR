@@ -25,14 +25,14 @@
    }
    &__item {
       position: relative;
-      padding: 17px;
+      padding: 10px 17px;
       &::before {
          content: "";
          position: absolute;
          width: 4px;
          height: 4px;
          background-color: $point;
-         top: 28px;
+         top: 22px;
          right: -2px;
          border-radius: 50%;
       }

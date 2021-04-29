@@ -122,7 +122,7 @@ img {
 
 .header-nav__item {
   position: relative;
-  padding: 17px;
+  padding: 10px 17px;
 }
 
 .header-nav__item::before {
@@ -131,7 +131,7 @@ img {
   width: 4px;
   height: 4px;
   background-color: #b0acac;
-  top: 28px;
+  top: 22px;
   right: -2px;
   border-radius: 50%;
 }
@@ -186,6 +186,10 @@ img {
 .footer-social__link {
   padding: 10px;
   opacity: 0.5;
+}
+
+.footer-social__img {
+  vertical-align: middle;
 }
 
 .footer-scroll__wrap {
